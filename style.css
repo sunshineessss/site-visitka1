@@ -499,3 +499,11 @@
 .mob-btn {
     display: none;
 }
+
+.img-man-avatar {
+    background-image: url(img/man-avatar.png);
+}
+
+.card-info-img {
+    background-image: url(img/girl-avatar.png);
+}
