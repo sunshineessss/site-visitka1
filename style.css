@@ -89,11 +89,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-start;   
+    align-items: flex-start;
     text-decoration: none;
     color: #1A1A1A;
     font-weight: bold;
     border-radius: 6px;
+}
+
+.join:hover {
+    background-color: cadetblue;
+    color: #febe02;
 }
 
 .header-info-block {
@@ -106,7 +111,10 @@
 }
 
 .card-info-img {
+    width: 361px;
+    height: 361px;
     display: flex;
+    flex-shrink: 0;
 }
 
 .info-title {
@@ -149,6 +157,11 @@
     background-color: #242424;
     display: flex;
     margin-top: 61px;
+}
+
+.card-music {
+    width: 187px;
+    height: 187px;
 }
 
 .audio-container {
